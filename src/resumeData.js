@@ -99,16 +99,6 @@ let resumeData = {
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
       }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
     ]
   }
   
