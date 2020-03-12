@@ -96,7 +96,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #4aabf1; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -119,7 +119,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #4aabf1; }
 header .icon-down-circle { 
    position: relative;
    z-index: 100;
@@ -182,9 +182,9 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #F06000; }
+ul#nav li a:hover { color: #ff6601; }
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ff6601; }
 
 
 /* ------------------------------------------------------------------ */
@@ -192,14 +192,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #64bad3;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #4aabf1; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -208,7 +208,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #fff;
 }
 #about .profile-pic {
    position: relative;
@@ -247,7 +247,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #4aabf1; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -256,7 +256,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #4aabf1;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -736,7 +736,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #4aabf1; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -797,7 +797,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #4aabf1;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -816,7 +816,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #4aabf1;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -828,7 +828,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #4aabf1; }
 
 #message-warning i,
 #message-success i {
@@ -912,7 +912,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ff6601;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
