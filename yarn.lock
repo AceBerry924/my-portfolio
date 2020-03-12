@@ -8348,7 +8348,7 @@ react-dev-utils@^10.2.0:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.6.0:
+react-dom@^16.12.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
   integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
@@ -8367,6 +8367,13 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
+
+react-particles-js@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.7.1.tgz#3d5ad39a9e8cfc2052b3ba8ac1fbe28e66b4713e"
+  integrity sha512-H3lnlcnc35HRismahWl8n/1IBNvP1u78r1YdS+QigDYwGkv4Bxqjdp3qLkQOkQnGLzaO5iu+Z4TWnyLVxOKPtA==
+  dependencies:
+    lodash "^4.17.11"
 
 react-scripts@^3.4.0:
   version "3.4.0"
@@ -8428,7 +8435,7 @@ react-scripts@^3.4.0:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^16.6.0:
+react@^16.12.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
   integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
