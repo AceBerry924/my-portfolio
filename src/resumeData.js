@@ -27,37 +27,30 @@ let resumeData = {
     "website":"https://AceBerry924.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"University of Toronto",
+        "specialization":"Computer Science Technology",
         "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2012",
+        "Achievements":"Bachelor's degree of CS"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Zaui Software",
+        "specialization":"Junior Software Engineer",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2013",
+        "Achievements":""
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Senior Front End Developer",
+        "specialization":"Self-Employed & Freelancing for remote jobs",
+        "MonthOfLeaving":"Jun",
+        "YearOfLeaving":"2015",
+        "Achievements":""
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"My Core Skills",
     "skills":[
       {
         "skillname":"HTML5"
@@ -66,16 +59,22 @@ let resumeData = {
         "skillname":"CSS3"
       },
       {
+        "skillname":"Bootstrap"
+      },
+      {
+        "skillname":"Bulma CSS"
+      },
+      {
         "skillname":"React.js"
       },
       {
         "skillname":"Vue.js"
       },
       {
-        "skillname":"Bootstrap"
+        "skillname":"Android"
       },
       {
-        "skillname":"Bulma CSS"
+        "skillname":"React Native & Expo"
       },
     ],
     "portfolio":[
