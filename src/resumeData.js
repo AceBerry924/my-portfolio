@@ -44,7 +44,7 @@ let resumeData = {
       },
       {
         "CompanyName":"Senior Front End Developer",
-        "specialization":"Self-Employed & Freelancing for remote jobs",
+        "specialization":"Self-Employed & Freelance for Remote jobs",
         "MonthOfLeaving":"Jun",
         "YearOfLeaving":"2015",
         "Achievements":""

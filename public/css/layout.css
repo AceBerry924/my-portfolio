@@ -118,7 +118,11 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #4aabf1; }
+header .scrolldown a:hover {
+   color: #0079a0;
+   opacity: .8;
+   filter: blur(1px);
+}
 header .icon-down-circle { 
    position: relative;
    z-index: 100;
@@ -303,7 +307,7 @@ ul#nav li.current a { color: #ff6601; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 26px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -323,8 +327,8 @@ ul#nav li.current a { color: #ff6601; }
    padding-right: 24px;
   	background: #58b9ff;
    display: inline-block;
-  	height: 25px;
-   line-height: 25px;
+  	height: 20px;
+   line-height: 20px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -804,7 +808,10 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover {
+   background-color: #0079a0;
+   filter: blur(1px);
+}
 
 .particles {
   position: absolute;

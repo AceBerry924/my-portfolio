@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-export default class About extends Component {
+import React from 'react';
+class About extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -30,3 +30,5 @@ export default class About extends Component {
     );
   }
 }
+
+export default About;
