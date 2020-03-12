@@ -18,7 +18,7 @@ let resumeData = {
         },
         {
           "name":"skype",
-          "url":"skype:meobius123",
+          "url":"skype:live:meobius123",
           "className":"fa fa-skype"
         }
       ],
