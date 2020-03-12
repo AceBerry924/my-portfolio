@@ -119,9 +119,7 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover {
-   color: #0079a0;
-   opacity: .8;
-   filter: blur(1px);
+   color: #333;
 }
 header .icon-down-circle { 
    position: relative;
@@ -810,7 +808,6 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover {
    background-color: #0079a0;
-   filter: blur(1px);
 }
 
 .particles {
