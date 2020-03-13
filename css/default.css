@@ -77,7 +77,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
+   font-family: Poppins, monospace, serif;
    font-size: 1em;
 }
 
