@@ -58,7 +58,7 @@ header .banner {
 
 header .banner-text { width: 100%; z-index: 5; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em Poppins, 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -170,7 +170,7 @@ ul#nav li a {
    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
    font-family: Poppins;
    display: inline-block;
-   padding: 8px 13px;
+   padding: 8px 15px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
