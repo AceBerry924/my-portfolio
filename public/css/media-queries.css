@@ -112,7 +112,6 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
    }
 
 	#nav-wrap > a:before,
@@ -139,9 +138,7 @@
       clear: both;
       width: auto; 
       float: right;     
-
       position: relative;
-      top: 12px;
       right: 0;
    }
 
@@ -150,7 +147,6 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
       clear: both;
    }
 
