@@ -14,7 +14,7 @@ class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                      <img src={process.env.PUBLIC_URL + `${item.imgurl}`} className="item-img" alt="portfolio"/>
+                      <img src={process.env.PUBLIC_URL + `${item.imgUrl}`} className="item-img" alt="portfolio"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>

@@ -9,30 +9,35 @@ let resumeData = {
         {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/leon-alexey-5b1b2119b/",
-          "className":"fa fa-linkedin"
+          "className": "fa fa-linkedin",
+          "altText": "Linkedin"
         },
         {
           "name":"github",
           "url":"http://github.com/aceberry924",
-          "className":"fa fa-github"
+          "className": "fa fa-github",
+          "altText": "Github"
         },
         {
           "name":"skype",
           "url":"skype:live:meobius123",
-          "className":"fa fa-skype"
+          "className": "fa fa-skype",
+          "altText": "Skype"
         },
         {
           "name":"email",
-          "url":"mail:meobius123@gmail.com",
-          "className":"fa fa-envelope-o"
+          "url":"mailto: meobius123@gmail.com",
+          "className": "fa fa-envelope-o",
+          "altText": "Email"
         },
         {
           "name":"resume",
           "url":"https://drive.google.com/open?id=1eBKmIC7z9v6chYkR8-Vt5zK5qsi95TbP",
-          "className":"fa fa-file-user"
+          "className": "fa fa-file-text",
+          "altText": "Resume"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutMe":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"Thailand",
     "website":"https://AceBerry924.github.io",
     "education":[
@@ -63,59 +68,59 @@ let resumeData = {
     "skillsDescription":"My Core Skills",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillName":"HTML5"
       },
       {
-        "skillname":"CSS3"
+        "skillName":"CSS3"
       },
       {
-        "skillname":"PHP"
+        "skillName":"PHP"
       },
       {
-        "skillname":"Javascript"
+        "skillName":"Javascript"
       },
       {
-        "skillname":"jQuery"
+        "skillName":"jQuery"
       },
       {
-        "skillname":"Bootstrap"
+        "skillName":"Bootstrap"
       },
       {
-        "skillname":"Bulma CSS"
+        "skillName":"Bulma CSS"
       },
       {
-        "skillname":"React.js"
+        "skillName":"React.js"
       },
       {
-        "skillname":"Vue.js"
+        "skillName":"Vue.js"
       },
       {
-        "skillname":"Android"
+        "skillName":"Android"
       },
       {
-        "skillname":"React Native & Expo"
+        "skillName":"React Native & Expo"
       },
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"/images/profilepic.jpg"
+        "imgUrl":"/images/profilepic.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"/images/portfolio/project.jpg"
+        "imgUrl":"/images/portfolio/project.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"/images/portfolio/project2.png"
+        "imgUrl":"/images/portfolio/project2.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"/images/portfolio/phone.jpg"
+        "imgUrl":"/images/portfolio/phone.jpg"
       }
     ]
   }

@@ -8,7 +8,7 @@ class About extends React.Component {
             <div className="twelve columns main-col">
 
                <h2>About Me</h2>
-               <p>{ resumeData.aboutme }</p>
+               <p>{ resumeData.aboutMe }</p>
 
                <div className="row">
 
