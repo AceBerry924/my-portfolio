@@ -20,7 +20,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #1b1b1b; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -737,7 +737,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #6c6c6c; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
