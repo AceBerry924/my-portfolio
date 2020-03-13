@@ -5,7 +5,7 @@ class Resume extends React.Component {
     return (
       <section id="resume">
 
-         <div className="row education">
+        <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
           </div>
@@ -13,17 +13,16 @@ class Resume extends React.Component {
           <div className="nine columns main-col">
           {
             resumeData.education && resumeData.education.map((item)=>{
-              return(
+              return (
                 <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.UniversityName}</h3>
-                      <p className="info">
+                  <div className="twelve columns">
+                    <h3>{item.UniversityName}</h3>
+                    <p className="info">
                       {item.specialization}
-                      <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                      <p>
-                      {item.Achievements}
-                      </p>
-                    </div>
+                      <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em>
+                    </p>
+                    <p>{item.Achievements}</p>
+                  </div>
                 </div>
               )
             })
@@ -70,8 +69,8 @@ class Resume extends React.Component {
                 resumeData.skills && resumeData.skills.map((item) => {
                   return(
                     <li>
-                    <span className={`bar-expand ${item.skillName.toLowerCase()}`}>
-                    </span><em>{item.skillName}</em>
+                      <span className={`bar-expand ${item.skillName.toLowerCase()}`}>
+                      </span><em>{item.skillName}</em>
                     </li>
                   )
                 })
