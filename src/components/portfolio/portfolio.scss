@@ -6,20 +6,25 @@
   .portfolio__nav {
     ul {
       display: flex;
+
       li {
         padding: 5px 15px;
         margin-right: 10px;
         cursor: pointer;
         transition: 0.3s ease;
       }
+
       li:hover {
         background-color: $main-color;
       }
     }
+
     .portfolio__nav-active {
+      color: $white-color;
       background-color: $main-color;
     }
   }
+
   .portfolio__filter {
     display: flex;
     justify-content: flex-end;
@@ -45,12 +50,15 @@
       text-align: center;
       border-radius: 5px;
       z-index: 999;
+
       p {
         padding: 8px 0;
         margin: 2px 0;
         transition: 0.3s ease;
       }
+
       p:hover {
+        color: $white-color;
         background-color: $main-color;
       }
     }
@@ -58,19 +66,25 @@
 }
 
 .my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixing */
-  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -30px; /* gutter size offset */
+  margin-left: -30px;
+  /* gutter size offset */
   width: auto;
 }
+
 .mint__gallery {
-  padding-left: 30px; /* gutter size */
+  padding-left: 30px;
+  /* gutter size */
   background-clip: padding-box;
 }
- 
+
 /* Style your items */
-.mint__gallery > div { /* change div to reference your elements you put in <Masonry> */
+.mint__gallery>div {
+  /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 30px;
 }
 
@@ -81,6 +95,7 @@
         justify-content: center;
       }
     }
+
     .portfolio__filter {
       justify-content: center;
       max-width: 200px;

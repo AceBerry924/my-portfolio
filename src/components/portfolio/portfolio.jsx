@@ -5,12 +5,16 @@ import Masonry from "react-masonry-css";
 import "./portfolio.scss";
 //Assets
 import Arrow from "../../assets/portfolio/arrow.svg";
-import Preview1 from "../../assets/portfolio/project01/preview.png";
-import Preview2 from "../../assets/portfolio/project02/preview.png";
-import Preview3 from "../../assets/portfolio/project03/preview.png";
-import Preview4 from "../../assets/portfolio/project04/preview.png";
-import Preview5 from "../../assets/portfolio/project05/preview.png";
-import Preview6 from "../../assets/portfolio/project06/preview.png";
+import FlyLineImage from "../../assets/portfolio/fly-line.png";
+import OpenSpaceImage from "../../assets/portfolio/open-spaces.png";
+import CoCreateImage from "../../assets/portfolio/co-create.png";
+import GumptionImage from "../../assets/portfolio/gumption.png";
+import CasalovaImage from "../../assets/portfolio/casalova.png";
+import TapTacImage from "../../assets/portfolio/tap-tac.png";
+import EmnImage from "../../assets/portfolio/emn.png";
+import CasperImage from "../../assets/portfolio/casper.png";
+import ValueChainImage from "../../assets/portfolio/value-chain.png";
+
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -24,39 +28,78 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
-          preview: Preview1,
-          title: "Lamp",
-          tag: "branding",
+          preview: OpenSpaceImage,
+          title: "Open Spaces",
+          core: "( React, Gatsby, Grid CSS )",
+          tag: "web",
+          url: "https://getopenspaces.com/",
         },
         {
           id: "2",
-          preview: Preview2,
-          title: "Smartwatch",
+          preview: FlyLineImage,
+          title: "FlyLine",
+          core: "( Vue, Scratch )",
           tag: "web",
+          url: "https://flyline.io/",
         },
         {
           id: "3",
-          preview: Preview3,
-          title: "Speakerphone",
-          tag: "illustrations",
+          preview: CoCreateImage,
+          title: "Co-create",
+          core: "( Vue, Bootstrap, FullPage.JS )",
+          tag: "web",
+          url: "https://www.co-create-the-future.eu/",
         },
         {
           id: "4",
-          preview: Preview4,
-          title: "Sneakers",
+          preview: CasalovaImage,
+          title: "Casalova",
+          core: "( React )",
           tag: "web",
+          url: "https://www.casalova.com/",
         },
         {
           id: "5",
-          preview: Preview5,
-          title: "Label",
-          tag: "illustrations",
+          preview: GumptionImage,
+          title: "Gumption",
+          core: "( CraftCMS 3, Bootstrap 4 )",
+          tag: "web",
+          url: "https://www.gumption.be/",
         },
         {
           id: "6",
-          preview: Preview6,
-          title: "lemons",
-          tag: "branding",
+          preview: TapTacImage,
+          title: "TapTac",
+          core: "( PHP, Bootstrap 4 )",
+          tag: "web",
+          url: "https://taptac.com/",
+        },
+        {
+          id: "7",
+          preview: ValueChainImage,
+          title: "Value Chain",
+          core: "( Ionic 5, Sendbird SDK )",
+          tag: "hybrid",
+          url:
+            "https://play.google.com/store/apps/details?id=com.liftov.thevaluechainsharebox",
+        },
+        {
+          id: "8",
+          preview: CasperImage,
+          title: "Casper",
+          core: "( React, Grid CSS, Scratch )",
+          tag: "web",
+          url:
+            "https://play.google.com/store/apps/details?id=com.liftov.thevaluechainsharebox",
+        },
+        {
+          id: "9",
+          preview: EmnImage,
+          title: "EMN Glossary",
+          core: "( React Native, Expo )",
+          tag: "hybrid",
+          url:
+            "https://play.google.com/store/apps/details?id=it.ittigcnr.emnglossary&hl=en",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
@@ -125,7 +168,7 @@ class Portfolio extends React.Component {
           preview={project.preview}
           key={project.id}
           title={project.title}
-          tag={project.tag}
+          core={project.core}
         />
       ));
     }
@@ -177,33 +220,23 @@ class Portfolio extends React.Component {
                   </li>
                   <li
                     className={
-                      this.state.pickedFilter === "branding"
-                        ? "portfolio__nav-active font12"
-                        : "font12"
-                    }
-                    onClick={() => this.filterGallery("branding")}
-                  >
-                    BRANDING
-                  </li>
-                  <li
-                    className={
-                      this.state.pickedFilter === "illustrations"
-                        ? "portfolio__nav-active font12"
-                        : "font12"
-                    }
-                    onClick={() => this.filterGallery("illustrations")}
-                  >
-                    ILLUSTRATIONS
-                  </li>
-                  <li
-                    className={
                       this.state.pickedFilter === "web"
                         ? "portfolio__nav-active font12"
                         : "font12"
                     }
                     onClick={() => this.filterGallery("web")}
                   >
-                    WEB
+                    WEBSITE
+                  </li>
+                  <li
+                    className={
+                      this.state.pickedFilter === "hybrid"
+                        ? "portfolio__nav-active font12"
+                        : "font12"
+                    }
+                    onClick={() => this.filterGallery("hybrid")}
+                  >
+                    HYBRID APP
                   </li>
                 </ul>
               </div>

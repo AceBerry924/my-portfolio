@@ -46,18 +46,6 @@ const desktopNav = (props) => (
           <li>
             <Link
               activeClass="active-link"
-              to="blog"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              BLOG
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active-link"
               to="contact"
               spy={true}
               smooth={true}

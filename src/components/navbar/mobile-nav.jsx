@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 // SCSS
 import "./navbar.scss";
 // Assets
-import CloseIcons from '../../assets/navbar/mobile-close.svg';
+import CloseIcons from "../../assets/navbar/mobile-close.svg";
 import Logo from "../../assets/navbar/logo-yellow.svg";
 
 const mobileNav = (props) => (
@@ -49,19 +49,6 @@ const mobileNav = (props) => (
             onClick={props.closeMobileMenu}
           >
             ABOUT
-          </Link>
-        </li>
-        <li className="flex-center">
-          <Link
-            activeClass="active-link"
-            to="blog"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            onClick={props.closeMobileMenu}
-          >
-            BLOG
           </Link>
         </li>
         <li className="flex-center">

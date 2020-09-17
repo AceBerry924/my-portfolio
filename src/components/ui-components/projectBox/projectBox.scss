@@ -1,14 +1,16 @@
   @import '../../../style/App.scss';
-  
+
   .portfolio__box {
     position: relative;
     max-width: 370px;
-    margin: 15px auto;
+    margin: 20px auto;
     cursor: pointer;
 
     img {
       width: 100%;
-      height: auto;
+      // height: auto;
+      height: 400px;
+      object-fit: cover;
     }
 
     .portfolio__hover-info {
@@ -20,11 +22,17 @@
       left: 0;
       opacity: 0;
       transition: 0.3s ease;
-      
+
       p {
-        text-transform: uppercase;
+        color: $white-color;
+        padding: 5px 0;
+
+        &.font35 {
+          text-transform: uppercase;
+        }
       }
     }
+
     .portfolio__hover-info:hover {
       opacity: 1;
     }
