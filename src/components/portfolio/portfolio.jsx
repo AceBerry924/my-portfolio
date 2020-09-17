@@ -164,12 +164,14 @@ class Portfolio extends React.Component {
     let projectsRender = null;
     if (this.state.filterResult) {
       projectsRender = this.state.filterResult.map((project) => (
-        <ProjectBox
-          preview={project.preview}
-          key={project.id}
-          title={project.title}
-          core={project.core}
-        />
+        <a href={project.url} target="__blank">
+          <ProjectBox
+            preview={project.preview}
+            key={project.id}
+            title={project.title}
+            core={project.core}
+          />
+        </a>
       ));
     }
     // PORTFOLIO GALLERY BREAKPOINTS
@@ -180,9 +182,9 @@ class Portfolio extends React.Component {
       500: 1,
     };
     // PORTFOLIO FILTER DROPDOWN MENY RENDER
-    let filterDroppDown = null;
+    let filterDropDown = null;
     if (this.state.filterMenuActive) {
-      filterDroppDown = (
+      filterDropDown = (
         <div className="portfolio__filter-menu shadow">
           <p
             className="font12"
@@ -251,7 +253,7 @@ class Portfolio extends React.Component {
                   {this.state.pickedFilterDropdown} FIRST
                 </p>
                 <img src={Arrow} alt="arrow" />
-                {filterDroppDown}
+                {filterDropDown}
               </div>
             </Col>
           </Row>
