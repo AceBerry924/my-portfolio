@@ -102,7 +102,7 @@ const about = () => (
       <h3 className="font40 weight800">Tech Stacks</h3>
       <Row>
         {techLogos.map((tech, id) => (
-          <Col md={3} className="tech-card">
+          <Col xs={6} md={3} className="tech-card">
             <div className="tech-card__wrapper">
               <img className="tech-logo" src={tech.logo} alt="stack-logo" />
             </div>
