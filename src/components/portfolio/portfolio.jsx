@@ -89,8 +89,7 @@ class Portfolio extends React.Component {
           title: "Casper",
           core: "( React, Grid CSS, Scratch )",
           tag: "web",
-          url:
-            "https://play.google.com/store/apps/details?id=com.liftov.thevaluechainsharebox",
+          url: "https://casper.com/",
         },
         {
           id: "9",
