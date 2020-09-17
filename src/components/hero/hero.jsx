@@ -15,12 +15,8 @@ const hero = () => (
           <div className="hero-info">
             <h1 className="weight800 font60">Hello</h1>
             <h1 className="weight800 font60">This is Leon Alexei.</h1>
-            <p className="font12">
-              I am a senior Front-End Web and Hybrid Mobile Developer. I like
-              dabbling in various parts of frontend development and like to
-              learn about new technologies. Also, I am a self-motivated
-              developer with staying up-to-date with the trending and latest
-              technologies.
+            <p className="font30 weight800">
+              Front-End Web & <br /> Hybrid Mobile developer
             </p>
             <Button label="SEND MESSAGE" target={"contact"} />
           </div>

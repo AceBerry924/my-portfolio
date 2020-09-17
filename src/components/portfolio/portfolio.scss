@@ -1,7 +1,7 @@
 @import '../../style/App.scss';
 
 #portfolio {
-  padding: 20px 0 40px 0;
+  padding: 80px 0 40px 0;
 
   .portfolio__nav {
     ul {
@@ -85,7 +85,7 @@
 /* Style your items */
 .mint__gallery>div {
   /* change div to reference your elements you put in <Masonry> */
-  margin-bottom: 30px;
+
 }
 
 @media screen and (max-width: 767px) {

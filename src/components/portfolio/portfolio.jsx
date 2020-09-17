@@ -164,10 +164,9 @@ class Portfolio extends React.Component {
     let projectsRender = null;
     if (this.state.filterResult) {
       projectsRender = this.state.filterResult.map((project) => (
-        <a href={project.url} target="__blank">
+        <a href={project.url} target="__blank" key={project.id}>
           <ProjectBox
             preview={project.preview}
-            key={project.id}
             title={project.title}
             core={project.core}
           />
