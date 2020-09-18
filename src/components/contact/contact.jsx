@@ -108,8 +108,7 @@ class Contact extends React.Component {
         <div className="wrapper">
           <Title title="CONTACT ME." />
           <p className="font12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
+            Would you like to build something awesome together?
           </p>
 
           <Row className="padding40">
