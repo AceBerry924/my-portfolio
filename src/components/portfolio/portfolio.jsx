@@ -13,7 +13,7 @@ import CasalovaImage from "../../assets/portfolio/casalova.png";
 import TapTacImage from "../../assets/portfolio/tap-tac.png";
 import EmnImage from "../../assets/portfolio/emn.png";
 import CasperImage from "../../assets/portfolio/casper.png";
-import ValueChainImage from "../../assets/portfolio/value-chain.png";
+import MindStarImage from "../../assets/portfolio/mind-star.png";
 
 //Components
 import Button from "../ui-components/button/button";
@@ -76,12 +76,11 @@ class Portfolio extends React.Component {
         },
         {
           id: "7",
-          preview: ValueChainImage,
-          title: "ShareBox",
-          core: "( Ionic 5, SendBird SDK )",
+          preview: MindStarImage,
+          title: "Mind Star",
+          core: "( Ionic 4, Apache Cordova )",
           tag: "hybrid",
-          url:
-            "https://play.google.com/store/apps/details?id=com.liftov.thevaluechainsharebox",
+          url: "https://play.google.com/store/apps/details?id=com.mindstar.selfcare",
         },
         {
           id: "8",
@@ -97,8 +96,7 @@ class Portfolio extends React.Component {
           title: "EMN Glossary",
           core: "( React Native, Expo )",
           tag: "hybrid",
-          url:
-            "https://play.google.com/store/apps/details?id=it.ittigcnr.emnglossary&hl=en",
+          url: "https://play.google.com/store/apps/details?id=it.ittigcnr.emnglossary&hl=en",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
@@ -164,11 +162,7 @@ class Portfolio extends React.Component {
     if (this.state.filterResult) {
       projectsRender = this.state.filterResult.map((project) => (
         <a href={project.url} target="__blank" key={project.id}>
-          <ProjectBox
-            preview={project.preview}
-            title={project.title}
-            core={project.core}
-          />
+          <ProjectBox preview={project.preview} title={project.title} core={project.core} />
         </a>
       ));
     }
@@ -184,16 +178,10 @@ class Portfolio extends React.Component {
     if (this.state.filterMenuActive) {
       filterDropDown = (
         <div className="portfolio__filter-menu shadow">
-          <p
-            className="font12"
-            onClick={() => this.filterDropDownHandler("NEWEST")}
-          >
+          <p className="font12" onClick={() => this.filterDropDownHandler("NEWEST")}>
             NEWEST
           </p>
-          <p
-            className="font12"
-            onClick={() => this.filterDropDownHandler("OLDEST")}
-          >
+          <p className="font12" onClick={() => this.filterDropDownHandler("OLDEST")}>
             OLDEST
           </p>
         </div>
@@ -210,9 +198,7 @@ class Portfolio extends React.Component {
                 <ul>
                   <li
                     className={
-                      this.state.pickedFilter === "all"
-                        ? "portfolio__nav-active font12"
-                        : "font12"
+                      this.state.pickedFilter === "all" ? "portfolio__nav-active font12" : "font12"
                     }
                     onClick={() => this.filterGallery("all")}
                   >
@@ -220,9 +206,7 @@ class Portfolio extends React.Component {
                   </li>
                   <li
                     className={
-                      this.state.pickedFilter === "web"
-                        ? "portfolio__nav-active font12"
-                        : "font12"
+                      this.state.pickedFilter === "web" ? "portfolio__nav-active font12" : "font12"
                     }
                     onClick={() => this.filterGallery("web")}
                   >
@@ -247,9 +231,7 @@ class Portfolio extends React.Component {
                 onMouseEnter={() => this.filterMenuHover(true)}
                 onMouseLeave={() => this.filterMenuHover(false)}
               >
-                <p className="font12">
-                  {this.state.pickedFilterDropdown} FIRST
-                </p>
+                <p className="font12">{this.state.pickedFilterDropdown} FIRST</p>
                 <img src={Arrow} alt="arrow" />
                 {filterDropDown}
               </div>
