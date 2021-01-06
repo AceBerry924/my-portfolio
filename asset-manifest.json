@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f31c8db0.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.d554fc0f.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.d554fc0f.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.cb93cc33.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.cb93cc33.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.f6d94e01.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f6d94e01.js.map",
     "static/css/2.7b1f77b4.chunk.css": "/my-portfolio/static/css/2.7b1f77b4.chunk.css",
     "static/js/2.4855a747.chunk.js": "/my-portfolio/static/js/2.4855a747.chunk.js",
     "static/js/2.4855a747.chunk.js.map": "/my-portfolio/static/js/2.4855a747.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.96a6320fec4ad5d25ff7e35f800aa569.js": "/my-portfolio/precache-manifest.96a6320fec4ad5d25ff7e35f800aa569.js",
+    "precache-manifest.62ed35ffd336138009400d082299c5e7.js": "/my-portfolio/precache-manifest.62ed35ffd336138009400d082299c5e7.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.7b1f77b4.chunk.css.map": "/my-portfolio/static/css/2.7b1f77b4.chunk.css.map",
     "static/css/main.f31c8db0.chunk.css.map": "/my-portfolio/static/css/main.f31c8db0.chunk.css.map",
@@ -34,6 +34,7 @@
     "static/media/jquery.svg": "/my-portfolio/static/media/jquery.da41a704.svg",
     "static/media/logo-yellow.svg": "/my-portfolio/static/media/logo-yellow.789bce48.svg",
     "static/media/logo.png": "/my-portfolio/static/media/logo.85735acd.png",
+    "static/media/mind-star.png": "/my-portfolio/static/media/mind-star.9001dd92.png",
     "static/media/mobile-close.svg": "/my-portfolio/static/media/mobile-close.f521cf45.svg",
     "static/media/mobile-menu.svg": "/my-portfolio/static/media/mobile-menu.10823520.svg",
     "static/media/nodejs.svg": "/my-portfolio/static/media/nodejs.b337a2fb.svg",
@@ -49,7 +50,6 @@
     "static/media/sass.svg": "/my-portfolio/static/media/sass.470548b4.svg",
     "static/media/tailwind.svg": "/my-portfolio/static/media/tailwind.3323dd02.svg",
     "static/media/tap-tac.png": "/my-portfolio/static/media/tap-tac.bcc5dc3b.png",
-    "static/media/value-chain.png": "/my-portfolio/static/media/value-chain.c41abada.png",
     "static/media/vue.svg": "/my-portfolio/static/media/vue.69cedcf3.svg"
   },
   "entrypoints": [
@@ -57,6 +57,6 @@
     "static/css/2.7b1f77b4.chunk.css",
     "static/js/2.4855a747.chunk.js",
     "static/css/main.f31c8db0.chunk.css",
-    "static/js/main.d554fc0f.chunk.js"
+    "static/js/main.cb93cc33.chunk.js"
   ]
 }
