@@ -5,13 +5,14 @@ import "./footer.scss";
 
 import Arrow from "../../assets/footer/arrow.svg";
 
+const today = new Date();
 const partnerBox = () => (
   <div className="footer">
     <div className="wrapper">
       <Row>
         <Col xs={12} sm={6} md={6}>
           <div className="footer-box">
-            <p>© 2020 - Copyright, All Right are Reserved</p>
+            <p>© {today.getFullYear()} - Copyright, All Right are Reserved</p>
           </div>
         </Col>
         <Col xs={12} sm={6} md={6}>
