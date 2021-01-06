@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f31c8db0.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.cb93cc33.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.cb93cc33.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.518b8a0a.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.518b8a0a.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.f6d94e01.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f6d94e01.js.map",
     "static/css/2.7b1f77b4.chunk.css": "/my-portfolio/static/css/2.7b1f77b4.chunk.css",
     "static/js/2.4855a747.chunk.js": "/my-portfolio/static/js/2.4855a747.chunk.js",
     "static/js/2.4855a747.chunk.js.map": "/my-portfolio/static/js/2.4855a747.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.62ed35ffd336138009400d082299c5e7.js": "/my-portfolio/precache-manifest.62ed35ffd336138009400d082299c5e7.js",
+    "precache-manifest.274a16da9ca43c7c6b7f7a63c99d6ccc.js": "/my-portfolio/precache-manifest.274a16da9ca43c7c6b7f7a63c99d6ccc.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.7b1f77b4.chunk.css.map": "/my-portfolio/static/css/2.7b1f77b4.chunk.css.map",
     "static/css/main.f31c8db0.chunk.css.map": "/my-portfolio/static/css/main.f31c8db0.chunk.css.map",
@@ -18,7 +18,6 @@
     "static/media/arrow.svg": "/my-portfolio/static/media/arrow.a74212b6.svg",
     "static/media/bg.png": "/my-portfolio/static/media/bg.5b21cd31.png",
     "static/media/bootstrap.svg": "/my-portfolio/static/media/bootstrap.ffded238.svg",
-    "static/media/casalova.png": "/my-portfolio/static/media/casalova.3eb03dbd.png",
     "static/media/casper.png": "/my-portfolio/static/media/casper.e331daad.png",
     "static/media/co-create.png": "/my-portfolio/static/media/co-create.3ec85ac9.png",
     "static/media/craft-cms.svg": "/my-portfolio/static/media/craft-cms.27a20876.svg",
@@ -28,6 +27,7 @@
     "static/media/graphql.svg": "/my-portfolio/static/media/graphql.6270a2d4.svg",
     "static/media/gumption.png": "/my-portfolio/static/media/gumption.76601c5c.png",
     "static/media/hero-image.png": "/my-portfolio/static/media/hero-image.93592c51.png",
+    "static/media/holidu.png": "/my-portfolio/static/media/holidu.0ea607f0.png",
     "static/media/html.svg": "/my-portfolio/static/media/html.676e8188.svg",
     "static/media/ionic.svg": "/my-portfolio/static/media/ionic.f85782bc.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.7fd50466.svg",
@@ -57,6 +57,6 @@
     "static/css/2.7b1f77b4.chunk.css",
     "static/js/2.4855a747.chunk.js",
     "static/css/main.f31c8db0.chunk.css",
-    "static/js/main.cb93cc33.chunk.js"
+    "static/js/main.518b8a0a.chunk.js"
   ]
 }
