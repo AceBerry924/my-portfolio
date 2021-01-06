@@ -9,7 +9,7 @@ import FlyLineImage from "../../assets/portfolio/fly-line.png";
 import OpenSpaceImage from "../../assets/portfolio/open-spaces.png";
 import CoCreateImage from "../../assets/portfolio/co-create.png";
 import GumptionImage from "../../assets/portfolio/gumption.png";
-import CasalovaImage from "../../assets/portfolio/casalova.png";
+import HoliduImage from "../../assets/portfolio/holidu.png";
 import TapTacImage from "../../assets/portfolio/tap-tac.png";
 import EmnImage from "../../assets/portfolio/emn.png";
 import CasperImage from "../../assets/portfolio/casper.png";
@@ -52,11 +52,11 @@ class Portfolio extends React.Component {
         },
         {
           id: "4",
-          preview: CasalovaImage,
-          title: "Casalova",
+          preview: HoliduImage,
+          title: "Holidu Rental",
           core: "( React )",
           tag: "web",
-          url: "https://www.casalova.com/",
+          url: "https://www.holidu.com/",
         },
         {
           id: "5",
@@ -78,7 +78,7 @@ class Portfolio extends React.Component {
           id: "7",
           preview: MindStarImage,
           title: "Mind Star",
-          core: "( Ionic 4, Apache Cordova )",
+          core: "( Ionic 4, Angular 8, Apache Cordova )",
           tag: "hybrid",
           url: "https://play.google.com/store/apps/details?id=com.mindstar.selfcare",
         },
